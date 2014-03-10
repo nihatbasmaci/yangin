@@ -1,5 +1,7 @@
 tr: 
   home: 
-    alarm: Alarm
-    archive: Arşiv
-    title: Yangın
+    alarm: "Alarm"
+    archive: "Arşiv"
+    title: "Yangın"
+    login: "Giriş"
+    logout: "Çıkış"

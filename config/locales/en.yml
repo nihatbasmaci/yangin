@@ -24,3 +24,6 @@ en:
     title: "Fire"
     alarm: "Alarm"
     archive: "Archive"
+    login: "Login"
+    logout: "Logout"
+    language: "Language"
