@@ -1,4 +1,5 @@
-tr:
-  title: "Yangın"
-  alarm: "Alarm"
-  archive: "Arşiv"
+tr: 
+  home: 
+    alarm: Alarm
+    archive: Arşiv
+    title: Yangın
