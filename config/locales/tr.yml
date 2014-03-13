@@ -1,5 +1,7 @@
-tr: 
-  home: 
+tr:
+  general:
+    fire: Orman Yangın
+  home:
     alarm: "Alarm"
     archive: "Arşiv"
     title: "Yangın"
