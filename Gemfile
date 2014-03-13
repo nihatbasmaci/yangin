@@ -35,8 +35,11 @@ end
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'authlogic'
+gem 'protected_attributes'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'bcrypt-ruby', :require => 'bcrypt'
 
 # Use unicorn as the app server
 # gem 'unicorn'
