@@ -1,0 +1,11 @@
+#head_nav a {
+	color:#999;
+}
+
+#head_nav a:hover {
+color:#e53f51;
+}
+
+#footer_text {
+	color: #e53f51;
+}
