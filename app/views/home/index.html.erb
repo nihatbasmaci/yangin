@@ -37,3 +37,54 @@
     </div>
   </div><!-- /example -->
   </div>
+
+
+
+<!-- Button trigger modal -->
+<div class="container">
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Modal Demo
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Title</h4>
+      </div>
+      <div class="modal-body">
+
+        <textarea class="form-control" rows="3" id="txt"></textarea>
+        <div id="container"></div>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"> Çıkış </button>
+        <input type="submit" class="btn btn-info" value="Temizle" id='temizle' > 
+        <input type="submit" class="btn btn-success" value="Yazdır" id='ekrana_yaz' > 
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script language="javascript">
+
+  $( "#ekrana_yaz" ).click(function() {
+    var veri = $( '#txt' ).val();
+    $('div #container').html('');
+    $('div #container').append(veri);
+  });
+
+  $( "#temizle" ).click(function() {
+
+    $('div #container').html('');
+    $('#txt').val('');
+  });
+
+
+</script>
